@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8"/>
+<head>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./styles.css" rel="stylesheet">
-    <title>Personal portfolio webpage</title>
-  </head>
-  <body>
-    <section id="welcome-section">
-        <h1>Welcome to my personal portfolio page</h1>
-    </section>
-    <section id="Projects">
-        <h1 class="project-title">Certification Projects</a>
-            <a href=""></a>
-    </section>
-    <section>
-        <a href="" id="profile-link"></a>
-    </section>
-    <nav id="navbar">
-        <a href="#"></a><!--finish href-->
-    </nav>
-  </body>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Otis Cocks | Portfolio</title>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="#welcome-section">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="welcome-section">
+    <h1>Welcome to my personal portfolio</h1>
+    <p>I'm an aspiring software engineer with a passion for frontend development and games.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Certification Projects</h2>
+    <div class="project-grid">
+      <a class="project-tile" href="https://your-project-link1" target="_blank">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1" />
+        <p>Product Landing Page</p>
+      </a>
+      <a class="project-tile" href="https://your-project-link2" target="_blank">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2" />
+        <p>Survey Form</p>
+      </a>
+      <!-- Add more project tiles -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Find me online</h2>
+    <a id="profile-link" href="https://github.com/YourGitHubUsername" target="_blank">GitHub</a>
+  </section>
+
+</body>
 </html>
+
